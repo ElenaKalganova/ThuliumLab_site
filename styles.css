@@ -1,0 +1,37 @@
+body{
+background:pink;
+}
+a{
+	color: black; 
+	font-family: sans-serif;
+	text-decoration: none;
+}
+a:hover{
+	color:pink;
+	background:black;
+}
+div{
+	border: 1px solid black;
+}
+h1{
+	font-family: monospace;
+}
+h2{
+	font-family: sans-serif;
+}
+h3{
+	font-family: sans-serif;
+}
+.indent{
+	
+margin-left:10px;
+}
+.anotherlinktype:hover{
+background:gray;
+}
+@media (min-width:500px){
+	.responsive{
+		display: inline-block;
+		width: 200px;
+	}
+}
